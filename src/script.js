@@ -22,7 +22,7 @@ const banco_de_dados = [
         ano: "2025",
         genero: "Animação, Ação, Aventura",
         sinopse: "Após ter sua família massacrada e sua irmã transformada em demônio, um jovem bondoso jura se tornar um caçador de demônios para vingar os seus e encontrar uma cura.",
-        imagem: "imagens/DemonSlayer.jpg",
+        imagem: "imagens/demonslayer.jpg",
     },
     {
         id: "invocacao_do_mal",
@@ -250,3 +250,16 @@ modalContainer.addEventListener('click', (event) => {
     }
 });
 
+/* Hamburguer */
+const hamburguerButton = document.getElementById("hamburguerButton");
+const closeButton = document.getElementById("closeButton");
+const mobileMenu = document.getElementById("mobileMenu");
+
+
+hamburguerButton.addEventListener('click', function() {
+    mobileMenu.style.display = 'flex';
+});
+
+closeButton.addEventListener('click', function() {
+    mobileMenu.style.display = 'none';
+});

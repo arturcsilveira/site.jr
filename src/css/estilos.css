@@ -9,10 +9,13 @@ body {
 
 /* Fundo Branco*/
 main {
-    width: 1280px;
+    max-width: 1280px;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     background: #FFFFFF;
+    box-sizing: border-box;
+    padding: 0 20px;
 }
 
 /* Carrossel */
@@ -111,7 +114,7 @@ header {
     display: flex;
     align-items: center; 
 }
-#container {
+#nav_bar{
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
@@ -130,6 +133,11 @@ header {
     max-width: 100%;
     height: auto;
 }
+.menu_pc {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
 
 /* MENU */
 .menu_principal {
@@ -144,6 +152,39 @@ header {
     color: #F6F6F6;
     text-decoration: none;
     padding: 10px 0;
+    transition: 0.3s;
+}
+.menu_principal a:hover{
+    color:#880000
+}
+.mobile_menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    background-color: #420000;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+}
+.hamburguer {
+    display: none;
+    color: #F6F6F6;
+    background: none;
+    border: none;
+    font-size: 36px;
+    cursor: pointer;
+}
+.close{
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #F6F6F6;
+    cursor: pointer;
+
 }
 
 /* Títulos*/
@@ -261,7 +302,7 @@ footer a{
 }
 .quadrado_vermelho {
     /*Quadrado Vermelho do final*/
-    background-color: #990000;
+    background-color: #880000;
     width: 100%;  
     text-align: center;
     padding: 15px 0;
@@ -362,10 +403,102 @@ footer a{
 .fechar {
     position: absolute;
     top: 10px;
-    right: 15px;
+    right: 10px;
     font-size: 35px;
     color: #420000;
     cursor: pointer;
     background: none;
     border: none;
 }
+
+@media (max-width: 768px) {
+    main {
+        padding: 0 20px;
+        width: 100%; 
+    }
+    /*Cabeçalho */
+    header {
+        height: auto;
+    }
+        .menu_pc {
+        display: none;
+    }
+    .hamburguer {
+        display: flex;
+    }
+    .mobile_menu{
+        position: fixed;
+    }
+    .mobile_menu .menu_principal {
+        flex-direction: column;
+        gap: 40px;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+    }
+    #container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* --- CARROSSEL --- */
+    .carrossel {
+        height: 300px;
+        width: 100%;
+    }
+    .slide img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .slide_texto h1 {
+    font-size: 16px;
+    }
+
+    /* Titulos */
+    .titulo h1 {
+        font-size: 64px;
+        line-height: 1.2;
+    }
+    .barra_horizontal {
+        margin-top: 0;
+    }
+    /*Subtitulos */
+    .subtitulos {
+        width: 100%;
+        margin: 40px 0;
+        padding-left: 0;
+    }
+    .subtitulos h1 {
+        font-size: 32px;
+    }
+
+    /* --- PÔSTERES --- */
+    .linha_poster {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .poster{
+        gap: 30px;
+    }
+    .poster_texto {
+        font-size: 15px;
+    }
+    
+    /* --- RODAPÉ --- */
+    #container_rodape {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    /* --- MODAL --- */
+    #modal {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        max-height: 90%;
+    }
+}
+
