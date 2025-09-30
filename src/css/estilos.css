@@ -32,9 +32,7 @@ main {
 }
 .slide_texto {
     position: absolute;
-    bottom: 10px;
     width: 100%;
-    position: absolute;
     bottom: 40px;
     text-align: center;
     transition: 2s;
@@ -57,8 +55,8 @@ main {
 }
 .navegacao_manual{
     position: absolute;
+    width: 100%;
     bottom: 20px;
-    left: 46%;
     display: flex;
     gap: 15px;
     justify-content: center;
@@ -438,32 +436,45 @@ footer a{
         object-fit: cover;
     }
     .slide_texto h1 {
-        font-size: 16px;
+        font-size: 8px;
+        bottom: 20px;
     }
     .navegacao_manual {
         bottom: 30%;
     }
 
     /* Titulos */
+    .titulo{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .titulo h1 {
         font-size: 64px;
     }
     /*Subtitulos */
+    .subtitulos{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .subtitulos h1 {
         font-size: 28px;
     }
 
     /* --- PÔSTERES --- */
+    .galeria{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .linha_poster {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        gap: 20px;
     }
     .poster{
         width: 100%;
     }
     .poster_texto {
-        font-size: 10px;
+        font-size: 15px;
     }
     
     /* --- RODAPÉ --- */
@@ -491,6 +502,5 @@ footer a{
     #modal_imagem {
     width: 199px;
     height: 300px;
-    object-fit: cover;
 }
 }
