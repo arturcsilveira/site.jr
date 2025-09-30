@@ -457,13 +457,13 @@ footer a{
     .linha_poster {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
+        gap: 10px;
     }
     .poster{
         width: 100%;
     }
     .poster_texto {
-        font-size: 20px;
+        font-size: 10px;
     }
     
     /* --- RODAPÉ --- */
@@ -488,4 +488,9 @@ footer a{
     .modal_texto p{
         font-size: 15px;
     }
+    #modal_imagem {
+    width: 199px;
+    height: 300px;
+    object-fit: cover;
+}
 }

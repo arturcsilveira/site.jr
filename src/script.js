@@ -37,7 +37,7 @@ const banco_de_dados = [
         titulo: "Animais Perigosos",
         ano: "2025",
         genero: "Terror",
-        sinopse: "equestrada por um serial killer e presa em um barco, uma surfista precisa lutar por sua vida para não se tornar a próxima refeição de tubarões famintos.",
+        sinopse: "Sequestrada por um serial killer e presa em um barco, uma surfista precisa lutar por sua vida para não se tornar a próxima refeição de tubarões famintos.",
         imagem: "src/imagens/AnimaisPerigosos.jpg",
     },
     {
@@ -94,7 +94,7 @@ const banco_de_dados = [
         ano: "2022",
         genero: "Romance, Comédia",
         sinopse: "O ano é 1999 e uma adolescente começa a monitorar o garoto pelo qual a melhor amiga está apaixonada. Tudo vai bem até que um outro amor começa a dar as caras.",
-        imagem: "src/imagens/GarotadoSeculoxx.jpg",
+        imagem: "src/imagens/GarotadoSeculoXX.jpg",
     },
     {
         id: "walter_mitty",
