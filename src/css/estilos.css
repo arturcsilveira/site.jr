@@ -437,7 +437,7 @@ footer a{
     }
     .slide_texto h1 {
         font-size: 8px;
-        bottom: 20px;
+        bottom: 40%;
     }
     .navegacao_manual {
         bottom: 30%;
@@ -491,7 +491,7 @@ footer a{
         max-height: 90%;
     }
     .modal_texto h1{
-        font-size: 30px;
+        font-size: 25px;
     }
     .modal_texto h2{
         font-size: 20px;
@@ -500,7 +500,13 @@ footer a{
         font-size: 15px;
     }
     #modal_imagem {
-    width: 199px;
-    height: 300px;
-}
+        width: 199px;
+        height: 300px;
+    }
+    #manual_btn{
+        padding: 3px;
+        border-width: 1px;
+        gap: 10px;  
+    }
+
 }
