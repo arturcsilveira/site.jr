@@ -22,7 +22,7 @@ const banco_de_dados = [
         ano: "2025",
         genero: "Animação, Ação, Aventura",
         sinopse: "Após ter sua família massacrada e sua irmã transformada em demônio, um jovem bondoso jura se tornar um caçador de demônios para vingar os seus e encontrar uma cura.",
-        imagem: "src/imagens/demonslayer.jpg",
+        imagem: "src/imagens/DemonSlayer.jpg",
     },
     {
         id: "invocacao_do_mal",
@@ -30,7 +30,7 @@ const banco_de_dados = [
         ano: "2025",
         genero: "Terror",
         sinopse: "No capítulo final da saga, os investigadores paranormais Ed e Lorraine Warren enfrentam seu caso mais aterrorizante em uma batalha definitiva contra o mal que ameaça suas próprias vidas.",
-        imagem: "src/imagens/InvocacaodoMal.jpg",
+        imagem: "src/imagens/InvocacaoDoMal.jpg",
     },
     {
         id: "animais_perigosos",
@@ -78,7 +78,7 @@ const banco_de_dados = [
         ano: "2002",
         genero: "Crime, Drama",
         sinopse: "Os caminhos de duas crianças divergem nas favelas do Rio, enquanto um se esforça para se tornar um fotógrafo e o outro um chefe do tráfico.",
-        imagem: "src/imagens/cidadededeus.jpg",
+        imagem: "src/imagens/CidadedeDeus.jpg",
     },
     {
         id: "morte_morte",
@@ -86,7 +86,7 @@ const banco_de_dados = [
         ano: "2022",
         genero: "Terror, Comédia",
         sinopse:"Quando um grupo de jovens ricos planeja uma festança em uma mansão familiar remota, uma brincadeira dá muito errado neste filme sobre traições, amigos falsos e uma festa que termina muito, muito mal!",
-        imagem: "src/imagens/mortemortemorte.jpg",
+        imagem: "src/imagens/MorteMorteMorte.jpg",
     },
     {
         id: "garota_seculoxx",
@@ -94,7 +94,7 @@ const banco_de_dados = [
         ano: "2022",
         genero: "Romance, Comédia",
         sinopse: "O ano é 1999 e uma adolescente começa a monitorar o garoto pelo qual a melhor amiga está apaixonada. Tudo vai bem até que um outro amor começa a dar as caras.",
-        imagem: "src/imagens/garotadoseculoxx.jpg",
+        imagem: "src/imagens/GarotadoSeculoxx.jpg",
     },
     {
         id: "walter_mitty",
@@ -102,7 +102,7 @@ const banco_de_dados = [
         ano: "2013",
         genero: "Aventura, Comédia",
         sinopse: "O tímido Walter Mitty está sempre sonhando acordado para escapar da sua vida monótona, mas uma aventura muito real prova que ser herói não é tão fácil quanto parece.",
-        imagem: "src/imagens/thesecretlifeofwaltermitty.jpg",
+        imagem: "src/imagens/theSecretLifeofWalterMitty.jpg",
     },
     {
         id: "ilha_cachorros",
@@ -110,7 +110,7 @@ const banco_de_dados = [
         ano: "2018",
         genero: "Animação, Ação, Aventura",
         sinopse: "Quando todos os cães da cidade de Megasaki são exilados para a enorme Ilha do Lixo, um rapaz de 12 anos, Atari, inicia uma viagem épica em busca do seu cão de guarda, o Spots.",
-        imagem: "src/imagens/ilhadoscachorros.jpg",
+        imagem: "src/imagens/IlhadosCachorros.jpg",
     },
     {
         id: "verao_mudou_vida",
@@ -118,7 +118,7 @@ const banco_de_dados = [
         ano: "2022",
         genero: "Drama, Romance",
         sinopse: "Belly Conklin está prestes a completar 16 anos e está indo para seu lugar favorito no mundo, Cousin Beach, para passar o verão com sua família e os Fishers. Belly cresceu muito no ano passado e tem a sensação de que este verão será diferente de todos os verões anteriores.",
-        imagem: "src/imagens/thesummeriturnedpretty.jpg",
+        imagem: "src/imagens/theSummeriTurnedPretty.jpg",
     },
     {
         id: "wandinha",
@@ -126,7 +126,7 @@ const banco_de_dados = [
         ano: "2022",
         genero: "Fantasia, Terror",
         sinopse: "Inteligente, sarcástica e meio morta por dentro. Wandinha Addams investiga uma onda de assassinatos e aproveita para fazer novos amigos e inimigos na Escola Nunca Mais.",
-        imagem: "src/imagens/wandinha.jpg",
+        imagem: "src/imagens/Wandinha.jpg",
     },
     {
         id: "only_murders",
@@ -134,7 +134,7 @@ const banco_de_dados = [
         ano: "2021",
         genero: "Drama, Mistério",
         sinopse: "Três vizinhos obcecados por podcasts de crimes reais decidem criar o seu próprio programa para investigar um assassinato misterioso que aconteceu em seu prédio de luxo em Nova York, descobrindo que o assassino pode ser um de seus moradores.",
-        imagem: "src/imagens/onlymurdersinthebuilding.jpg",
+        imagem: "src/imagens/OnlyMurdersintheBuilding.jpg",
     },
     {
         id: "walter_boys",
@@ -142,7 +142,7 @@ const banco_de_dados = [
         ano: "2023",
         genero: "Romance, Drama",
         sinopse: "Uma tragédia transforma a vida de uma adolescente. E agora ela tem que morar em uma cidadezinha com a família da tutora, onde aprende sobre amor, esperança e amizade.",
-        imagem: "src/imagens/mylifewiththewalterboys.jpg",
+        imagem: "src/imagens/MyLifeWiththeWalterBoys.jpg",
     },
     {
         id: "dexter",
@@ -150,7 +150,7 @@ const banco_de_dados = [
         ano: "2006",
         genero: "Drama, Policial",
         sinopse: "De dia, o pacato Dexter trabalha como analista de manchas de sangue para a polícia de Miami. À noite, ele é um assassino em série cujo alvo são outros assassinos.",
-        imagem: "src/imagens/dexter.jpg",
+        imagem: "src/imagens/Dexter.jpg",
     },
     {
         id: "breaking_bad",
@@ -158,7 +158,7 @@ const banco_de_dados = [
         ano: "2008",
         genero: "Drama, Suspense",
         sinopse: "Ao saber que tem câncer, um professor passa a fabricar metanfetamina pelo futuro da família, mudando o destino de todos.",
-        imagem: "src/imagens/breakingbad.jpg",
+        imagem: "src/imagens/BreakingBad.jpg",
     },
     {
         id: "prison_break",
@@ -166,7 +166,7 @@ const banco_de_dados = [
         ano: "2005",
         genero: "Drama, Suspense",
         sinopse: "Quando seu irmão é condenado erroneamente pela morte do irmão de um político poderoso, o engenheiro Michael Scofield decide retirar à força seu irmão inocente da cadeia.",
-        imagem: "src/imagens/prisonbreak.jpg",
+        imagem: "src/imagens/PrisonBreak.jpg",
     },
     {
         id: "himym",
@@ -174,7 +174,7 @@ const banco_de_dados = [
         ano: "2005",
         genero: "Comédia, Romance",
         sinopse: "A épica busca de Ted por sua alma gêmea é contada através de recordações, quando ele conta aos filhos como conheceu a mãe deles.",
-        imagem: "src/imagens/howimetyourmother.jpg",
+        imagem: "src/imagens/HowiMetYourMother.jpg",
     },
     {
         id: "love101",
@@ -182,7 +182,7 @@ const banco_de_dados = [
         ano: "2020",
         genero: "Drama",
         sinopse: "Ao tentarem unir uma professora e um treinador de basquete, quatro jovens problemáticos e uma aluna modelo descobrem a amizade, o amor e a coragem de serem eles mesmos.",
-        imagem: "src/imagens/love101.jpg",
+        imagem: "src/imagens/Love101.jpg",
     },
     {
         id: "luther",
@@ -190,7 +190,7 @@ const banco_de_dados = [
         ano: "2010",
         genero: "Policial, Suspense",
         sinopse: "O detetive John Luther é um gênio investigando assassinatos; mas sua mente brilhante nem sempre pode salvá-lo da violência perigosa de suas paixões.",
-        imagem: "src/imagens/luther.jpg",
+        imagem: "src/imagens/Luther.jpg",
     },
     {
         id: "for_all_mankind",
@@ -198,7 +198,7 @@ const banco_de_dados = [
         ano: "2019",
         genero: "Drama, Ficção Científica",
         sinopse: "Imagine um mundo em que a corrida espacial global nunca chegou ao fim. Essa série dramática de Ronald D. Moore (Outlander, Battlestar Galactica) conta a história das vidas de alto risco dos astronautas da NASA e de suas famílias.",
-        imagem: "src/imagens/forallmankind.jpg",
+        imagem: "src/imagens/ForAllMankind.jpg",
     },
     {
         id: "yellowjackets",
@@ -206,7 +206,7 @@ const banco_de_dados = [
         ano: "2021",
         genero: "Drama, Terror",
         sinopse: "Esta é a história de um time de jogadoras de futebol do ensino médio que sobrevivem a um acidente de avião. A série narra a transformação de um grupo complexo, mas próspero, ao mesmo tempo em que acompanha as vidas das sobreviventes anos depois.",
-        imagem: "src/imagens/yellowjackt.jpg",
+        imagem: "src/imagens/Yellowjackt.jpg",
     }
 ];
 
