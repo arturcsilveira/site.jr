@@ -84,16 +84,16 @@ main {
 #radio4:checked ~ .slides{
     margin-left: -300%;
 }
-#radio1:checked ~ .navigation_auto .auto-btn1{
+#radio1:checked ~ .navegacao_manual label:nth-child(1){
     background-color: #FFFFFF;
 }
-#radio2:checked ~ .navigation_auto .auto-btn1{
+#radio2:checked ~ .navegacao_manual label:nth-child(2){
     background-color: #FFFFFF;
 }
-#radio3:checked ~ .navigation_auto .auto-btn1{
+#radio3:checked ~ .navegacao_manual label:nth-child(3){
     background-color: #FFFFFF;
 }
-#radio4:checked ~ .navigation_auto .auto-btn1{
+#radio4:checked ~ .navegacao_manual label:nth-child(4){
     background-color: #FFFFFF;
 }
 
@@ -182,8 +182,8 @@ header {
     align-items: center;
     justify-content: center;
     
-    margin-top: 80px; 
-    margin-bottom: 40px;
+    padding-top: 20px; 
+    padding-bottom: 20px;
 }
 .titulo h1 {
     /*Formatação dos textos dos titulos */
@@ -199,7 +199,7 @@ header {
     height: 9px;
     background: #420000;
     border-radius: 5px;
-    margin-top: -30px;
+    margin-top: 30px;
 }
 
 /*Subtítulos*/
@@ -208,8 +208,8 @@ header {
     flex-direction: row; 
     align-items: center;
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .subtitulos h2 {
     /*Formatação dos textos do subtitulo */
@@ -232,7 +232,7 @@ header {
 .galeria {
     width: 100%;
     box-sizing: border-box;
-    margin-bottom: 100px;
+    padding-bottom: 50px;
 }
 .linha_poster {
     /* grade */
@@ -255,7 +255,7 @@ header {
 }
 .poster_caixa{
     /*Caixa de Texto*/
-    margin-top: 4px;
+    padding-top: 4px;
 }
 .poster_texto {
     /*Texto abaixo dos poster*/
@@ -445,8 +445,8 @@ footer a{
 
     /* Titulos */
     .titulo{
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .titulo h1 {
         font-size: 64px;
@@ -455,6 +455,8 @@ footer a{
     .subtitulos{
         padding-left: 10px;
         padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .subtitulos h2 {
         font-size: 28px;
