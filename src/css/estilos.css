@@ -219,7 +219,7 @@ header {
     margin: 0;
 }
 .barra_vertical {
-    /* Estilo da barra vertical */
+    /* Barra vertical */
     width: 10px;
     height: 90px;
     background: #420000;
@@ -427,29 +427,31 @@ footer a{
     }
 
     /* --- CARROSSEL --- */
-    .carrossel {
-        height: 300px;
-    }
     .slide img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
     .slide_texto h1 {
-        font-size: 8px;
-        bottom: 40%;
+        font-size: 10px;
+        text-align: center;
+        bottom: 20px;
     }
     .navegacao_manual {
-        bottom: 30%;
+        bottom: 10px;
     }
 
     /* Titulos */
     .titulo{
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+    .barra_horizontal{
+        width: 90px;
+        height: 8px;
     }
     .titulo h1 {
-        font-size: 64px;
+        font-size: 48px;
     }
     /*Subtitulos */
     .subtitulos{
@@ -457,6 +459,10 @@ footer a{
         padding-right: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+    .barra_vertical{
+        width: 8px;
+        height: 60px;
     }
     .subtitulos h2 {
         font-size: 28px;
