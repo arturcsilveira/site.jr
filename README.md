@@ -22,7 +22,7 @@ git clone https://github.com/arturcsilveira/site.jr.git
 Acesse a pasta do projeto que foi criada:
 
 ```bash
-cd cinedicas
+cd site.jr
 ```
 Por ser um projeto estático, não há necessidade de instalar dependências. Basta abrir o arquivo index.html diretamente no seu navegador.
 
