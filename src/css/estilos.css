@@ -349,6 +349,7 @@ footer a{
     position: relative;
     display: flex;
     align-items: flex-start;
+    gap: 20px;
 }
 #modal_imagem {
     width: 282px;
@@ -489,6 +490,7 @@ footer a{
         height: auto;
         padding: 5px;
         max-height: 90%;
+        gap: 5px;
     }
     .modal_texto h1{
         font-size: 25px;
