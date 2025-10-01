@@ -16,7 +16,7 @@ Para rodar este projeto na sua máquina usando Git, siga os passos abaixo:
 Clone este repositório para a sua máquina local:
 
 ```bash
-git clone https://github.com/arturcsilveira/cinedicas.git
+git clone https://github.com/arturcsilveira/site.jr.git
 ```
 
 Acesse a pasta do projeto que foi criada:
