@@ -2,16 +2,34 @@
   <img src="https://github.com/user-attachments/assets/9037503b-dce2-430a-8bca-db269280c059">
 </div>
 
-## 🎬 Cinedicas
-Meu nome é Artur Silveira, e a minha ideia para a landing page da capacitação da Cimatec Jr. foi sobre um site de recomendação de filmes, inspirado em um Letterboxd, Imdb, Tv Time, Adoro Cinema e afins.
+# 🎬Cine Dicas
+
+A ideia da Landind Page é um lugar para você encontrar algo para assistir. A navegação é bem simples, ele é dividido em seções ("Recomendações", "Cansado do Mesmo de Sempre" etc.) e nessas seções tem os pôsteres que representam cada filme. A partir disso, você clica no pôster do filme que você gostaria de ter informações sobre e ele abre um modal com as informações (Nome, Ano, Gênero e Sinopse).
 
 ### ↓ Link do Site ↓
 https://cinedicas.vercel.app/
 
-## Sobre o Site
-A ideia do site é para você encontrar algo para assim. A navegação é bem simples, ele é dividido em seções ("Recomendações", "Cansado do Mesmo de Sempre" etc.) e nessas seções tem os pôsteres que representam cada filme. A partir disso, você clica no pôster do filme que você gostaria de ter informações sobre e ele abre um modal com as informações (Nome, Ano, Gênero e Sinopse).
+## 🚀 Como Clonar:
 
-## 🎯 Requisitos obrigatórios desenvolvidos:
+Para rodar este projeto na sua máquina usando Git, siga os passos abaixo:
+
+Clone este repositório para a sua máquina local:
+
+```bash
+git clone https://github.com/arturcsilveira/cinedicas.git
+```
+
+Acesse a pasta do projeto que foi criada:
+
+```bash
+cd cinedicas
+```
+Por ser um projeto estático, não há necessidade de instalar dependências. Basta abrir o arquivo index.html diretamente no seu navegador.
+
+## 💻 Linguagens Usadas
+[![Tecnologias](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
+
+## 🎯 Requisitos obrigatórios da Etapa Técnica:
 - Barra de navegação ✓
 - Catálogo de produtos ✓
 - Carrossel de imagens ✓
