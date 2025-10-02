@@ -18,19 +18,23 @@ main {
 
 /* Carrossel */
 .carrossel{
+    /* Caixa do Carrossel */ 
     width: 100%;
     max-width: 1280px;
     overflow: hidden;
     position: relative;
 }
 .carrossel input{
+    /* Esconde os botões de radio */
     display:none;
 }
 .slide {
+    /* Define tamanho de um Slide do Carrossel */
     width: 100%;
     position: relative;
 }
 .slide_texto {
+    /* Texto que aparece no slide */
     position: absolute;
     width: 100%;
     bottom: 40px;
@@ -38,15 +42,18 @@ main {
     transition: 2s;
 }
 .slide_texto h1 {
+    /*Formatação do Texto */
     font-family: 'Alkatra';
     color: #FFFFFF;
     font-size: 24px;
 }
 .slide img{
+    /*Imagem do Slide */
     width: 100%;
     height: auto;
 }
 .slides{
+    /* Caixa de todos os slides */
     width: 400%;
     height: auto;
     display: flex;
@@ -54,6 +61,7 @@ main {
     align-items: flex-start;
 }
 .navegacao_manual{
+    /* Posiciona a bolinha de navegação do carrossel */
     position: absolute;
     width: 100%;
     bottom: 20px;
@@ -62,6 +70,7 @@ main {
     justify-content: center;
 }
 .manual_btn{
+    /* Decora as bolinhas da navegação */
     border: 2px solid #FFFFFF;
     padding: 5px;
     border-radius: 50%;
@@ -70,6 +79,7 @@ main {
     bottom: 12px; 
 }
 .manual_btn:hover{
+    /* Efeito da bolinha */
     background-color: #FFFFFF;
 }
 #radio1:checked ~ .slides{
@@ -99,6 +109,7 @@ main {
 
 /* Cabeçalho*/
 header {
+    /* Tamanho e Cor do Cabeçalho */
     width: 100%;
     height: 150px;
     background: #420000;
@@ -106,6 +117,7 @@ header {
     align-items: center; 
 }
 #nav_bar{
+    /* Barra de Navegação */
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
@@ -115,26 +127,31 @@ header {
     box-sizing: border-box;
 }
 .logo1{
+    /* Caixa da Logo do Cabeçalho */
     width: 150px;
     display: flex;
     align-items: center;
 }
 .logo1 img{
+    /* Imagem da logo do Cabeçalho */
     max-width: 100%;
     height: auto;
 }
-.menu_pc {
-  display: flex;
-  justify-content: center;
-  flex: 1;
-}
 
 /* MENU */
+.menu_pc {
+    /* Centraliza o texto para o pc */
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
 .menu_principal {
+    /* Alinha os links do menu */
     display: flex;
     gap: 150px;
 }
 .menu_principal a {
+    /* Decoração do texto cabeçalho */
     font-family: 'Chango';
     font-size: 28px;
     color: #F6F6F6;
@@ -142,9 +159,11 @@ header {
     transition: 0.3s;
 }
 .menu_principal a:hover{
+    /* Efeito para o texto */
     color:#880000
 }
 .mobile_menu {
+    /* O painel para versão mobile */
     display: none;
     position: fixed;
     top: 0;
@@ -159,6 +178,7 @@ header {
     z-index: 1000;
 }
 .hamburguer {
+    /* Botão para abrir o Menu de pesquisa na versão para mobile */
     display: none;
     color: #F6F6F6;
     background: none;
@@ -168,6 +188,7 @@ header {
     right: 10px;
 }
 .close{
+    /* Botão de fechar o menu mobile */
     font-size: 24px;
     background: none;
     border: none;
@@ -178,6 +199,7 @@ header {
 
 /* Títulos*/
 .titulo {
+    /* Caixa para os títulos */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -205,6 +227,7 @@ header {
 
 /*Subtítulos*/
 .subtitulos {
+    /*Caixa para os subtitulos */
     display: flex;
     flex-direction: row; 
     align-items: center;
@@ -231,12 +254,13 @@ header {
 
 /*Seções de Poster*/
 .galeria {
+    /* Caixa para a Galeria */
     width: 100%;
     box-sizing: border-box;
     padding-bottom: 50px;
 }
 .linha_poster {
-    /* grade */
+    /* Linha que agrupa os posters */
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
@@ -248,7 +272,7 @@ header {
     height: auto;
 }
 .poster img {
-    /*Informações Imagem */
+    /* Imagem dos posters */
     display: block;
     width: 100%;
     aspect-ratio: 282 / 400;
@@ -259,7 +283,7 @@ header {
     padding-top: 4px;
 }
 .poster_texto {
-    /*Texto abaixo dos poster*/
+    /*Formatação dos textos abaixo dos poster*/
     font-family: 'Alkatra';
     text-align: center;
     font-size: 20px;
@@ -274,13 +298,6 @@ footer {
     padding: 40px 0 0;
     background: #420000;
 }
-footer a{
-    /*Texto Rodapé*/
-    font-family: 'Alkatra';
-    font-size: 20px;
-    text-decoration: none;
-    color: #F6F6F6;
-}
 .quadrado_vermelho {
     /*Quadrado Vermelho do final*/
     background-color: #880000;
@@ -289,14 +306,14 @@ footer a{
     padding: 15px 0;
 }
 .quadrado_vermelho h1 {
-    /* Texto do Quadrado Vermelho*/
+    /* Formatação do texto do Quadrado Vermelho*/
     font-family: 'Alkatra';
     font-size: 20px;
     color: #F6F6F6;
     margin: 0;
 }
 #container_rodape {
-    /*Espaço para itens do rodapé*/
+    /*Caixa para itens do rodapé*/
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
@@ -311,25 +328,35 @@ footer a{
     gap: 15px;
 }
 .rodape_coluna h1 {
-    /* Texto das Colunas*/
+    /* Título para as Colunas*/
     font-family: 'Alkatra';
     font-weight: 400;
     font-size: 30px;
     color: #F6F6F6;
     margin: 0 0 10px 0;
 }
+.rodape_coluna a{
+    /*Formatação dos texto Rodapé*/
+    font-family: 'Alkatra';
+    font-size: 20px;
+    text-decoration: none;
+    color: #F6F6F6;
+}
 .logo2{
+    /* Caixa para logo do rodapé */
     width: 300px;
     display: flex;
     align-items: flex-start;
 }
 .logo2 img{
+    /* Logo do Rodapé*/
     max-width: 100%;
     height: auto;
 }
 
 /* Modal */
 #modal_container {
+    /* Caixa para o modal */
     position: fixed;
     width: 100%;
     height: 100%;
@@ -339,9 +366,11 @@ footer a{
     display: none; 
 }
 #modal_container.active {
+    /* Regra para modal funcionar */
     display: flex;
 }
 #modal {
+    /* Janela do Modal */
     background: #F6F6F6;
     padding: 30px;
     border-radius: 10px;
@@ -353,11 +382,13 @@ footer a{
     gap: 20px;
 }
 #modal_imagem {
+    /* Imagem do Modal */
     width: 282px;
     height: 400px;
     object-fit: cover;
 }
 .modal_texto h1{
+    /* Formatação do Título do Modal */
     font-family: 'Chango';
     text-align: center;
     font-size: 40px;
@@ -365,6 +396,7 @@ footer a{
     margin: 0;
 }
 .modal_texto h2{
+    /* Formatação do Subtitulo do Modal */
     font-family: 'Chango';
     font-size: 25px;
     text-align: center;
@@ -372,15 +404,18 @@ footer a{
     margin: 0;
 }
 .modal_texto p{
+    /* Formatação do texto do Modal */
     font-family: 'Alkatra';
     font-size: 20px;
     color:#000000;
     margin: 0;
 }
 .aberto {
-  overflow: hidden;
+    /* Impede o usuário de rolar a página com o modal ativado */
+    overflow: hidden;
 }
 .fechar {
+    /* Botão de fechar o modal*/
     position: absolute;
     top: 10px;
     right: 10px;
@@ -391,7 +426,9 @@ footer a{
     border: none;
 }
 
-@media (max-width: 768px) {
+/* Regra para Responsividade */
+@media screen and (max-width: 768px) {
+    /* Fundo */
     main {
         width: 100%; 
     }
@@ -399,23 +436,26 @@ footer a{
     header {
         height: 100px;
     }
+    /* Menu */
     .menu_pc {
+        /* Desativa o menu para pc */
         display: none;
     }
     .hamburguer {
+        /* Exibe o icone do menu */
         display: flex;
     }
-    .mobile_menu{
-        position: fixed;
-    }
     .menu_principal a{
+        /* Texto cabeçalho */
         font-size: 18px;
     }
     #nav_bar {
+        /* Barra de navegação */
         position: relative;
         right: 20px;
     }
     .mobile_menu .menu_principal {
+        /* Organiza o menu mobile em uma coluna vertical */
         flex-direction: column;
         gap: 40px;
         padding: 0;
@@ -423,72 +463,95 @@ footer a{
         text-align: center;
     }
     #container {
+        /* Coloca os itens na vertical*/
         flex-direction: column;
         gap: 15px;
     }
 
     /* CARROSSEL */
     .slide img {
+        /* Formata as imagens do carrossel para mobile */
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
     .slide_texto{
+        /* Posição da caixa para mobile */
         bottom: 25px;
     }
     .slide_texto h1 {
+        /* Fonte do texto carrossel */
         font-size: 10px;
     }
     .navegacao_manual {
+        /* Posição bolinhas carrossel*/
         bottom: 10px;
+    }
+    #manual_btn{
+        /* Botões de Navegação do Carrossel */
+        padding: 3px;
+        border-width: 1px;
+        gap: 10px;  
     }
 
     /* Titulos */
     .titulo{
+        /* Espaçamento para mobile dos Titulos */
         padding-top: 1px;
         padding-bottom: 1px;
     }
     .barra_horizontal{
+        /* Barra horizontal */
         width: 90px;
         height: 8px;
     }
     .titulo h1 {
+        /* Fonte do Titulo */
         font-size: 48px;
     }
+    
     /*Subtitulos */
     .subtitulos{
+        /* Espaçamento para mobile do subtitulos */
         padding-left: 10px;
         padding-right: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
     .barra_vertical{
+        /* Barra vertical */
         width: 8px;
         height: 60px;
     }
     .subtitulos h2 {
+        /* Textos dos subtitulos */
         font-size: 28px;
     }
 
     /* POSTERES */
     .galeria{
+        /* Alteração na caixa da galeria */
         padding-left: 10px;
         padding-right: 10px;
     }
     .linha_poster {
+        /* Reorganização dos posters em 2 colunas */
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
     .poster{
+        /* Caixa dos poster */
         width: 100%;
     }
     .poster_texto {
+        /* Texto dos posters*/
         font-size: 15px;
     }
     
     /* RODAPÉ */
     #container_rodape {
+        /* Organiza o rodapé na vertial */
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -496,6 +559,7 @@ footer a{
 
     /* MODAL */
     #modal {
+        /* Muda a caixa do modal */
         flex-direction: column;
         align-items: center;
         height: auto;
@@ -504,18 +568,23 @@ footer a{
         gap: 5px;
     }
     .modal_texto{
+        /* Ativa "descer" para ler o texto e evitar que o texto saia da caixa */
         overflow-y: scroll;
     }
     .modal_texto h1{
+        /* Título do Modal */
         font-size: 30px;
     }
     .modal_texto h2{
+        /* Subtitulo do Modal */
         font-size: 20px;
     }
     .modal_texto p{
+        /* Texto do Modal*/
         font-size: 15px;
     }
     #modal_imagem {
+        /* Imagem do Modal*/
         width: 165px;
         height: 234px;
     }
@@ -524,5 +593,4 @@ footer a{
         border-width: 1px;
         gap: 10px;  
     }
-
 }
